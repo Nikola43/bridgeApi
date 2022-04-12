@@ -1,9 +1,8 @@
 package controllers
 
 import (
+	"bridgeApi/utils"
 	"fmt"
-
-	"github.com/nikola43/bridgeApi/utils"
 )
 
 func ON(context *fiber.Ctx) error {
